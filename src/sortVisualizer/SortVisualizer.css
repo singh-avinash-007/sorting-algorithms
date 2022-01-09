@@ -100,7 +100,9 @@
   flex-direction: column;
   min-height: 100vh;
 }
-
+.app-footer {
+  justify-content: center;
+}
 @media (max-width: 800px) {
   .app-footer {
     justify-content: center;

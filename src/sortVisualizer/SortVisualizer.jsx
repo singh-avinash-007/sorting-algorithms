@@ -88,7 +88,7 @@ export default function SortVisualizer(props) {
     });
     setTimeout(() => {
       animateSortedArray();
-    }, when[animations.length - 1]);
+    }, when[animations.length - 1] + delay);
   }
 
   function animateArrayAccess(index) {
