@@ -1,0 +1,149 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.array-container {
+  align-items: flex-end;
+  display: flex;
+  margin-top: auto;
+}
+.header {
+  min-height: 65px;
+  display: flex;
+  justify-content: center;
+  background-color: #c38d9e;
+  align-items: center;
+}
+.array-bar {
+  /* background-color: #C38D9E; */
+  background-color: #41b3a3;
+  border-radius: 0.1em;
+  margin: 0.1%;
+}
+
+.app-footer {
+  display: flex;
+  overflow-x: auto;
+  color: white;
+  background-color: #c38d9e;
+  margin-top: auto;
+  min-height: 25px;
+  /* justify-content: space-around; */
+  /* align-items:center; */
+}
+
+.app-footer ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.app-button {
+  border: solid;
+  border-color: white;
+  min-width: 100px;
+  text-align: center;
+  border-radius: 0.2em;
+  border-width: 0.01em;
+  color: white;
+  padding: 0.2em;
+  margin: 0 0.2em;
+  background-color: #e27d60;
+  max-height: 25px;
+  min-height: 25px;
+}
+
+.number {
+  border: solid;
+  border-color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 0.2em;
+  border-width: 0.01em;
+  color: white;
+  padding: 0.2em;
+  margin: 0 0.2em;
+  background-color: black;
+  max-height: 25px;
+  min-height: 25px;
+}
+.control {
+  border: solid;
+  border-color: white;
+  min-width: 50px;
+  text-align: center;
+  border-radius: 0.2em;
+  border-width: 0.01em;
+  color: white;
+  padding: 0.2em;
+  margin: 0 0.2em;
+  background-color: black;
+  max-height: 25px;
+  min-height: 25px;
+}
+.app-button:focus {
+  outline: none;
+}
+.control:hover {
+  color: #333;
+  background-color: #eaeaea;
+}
+.app-button:hover {
+  color: #333;
+  background-color: #eaeaea;
+}
+
+.visualizer-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .app-footer {
+    justify-content: center;
+  }
+  .header {
+    min-height: 65px;
+    display: flex;
+    padding-top: 2px;
+    justify-content: center;
+    background-color: #c38d9e;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2px;
+  }
+  .control {
+    min-width: 290px;
+    text-align: center;
+    border-radius: 0.2em;
+    border-width: 0.01em;
+    color: white;
+    background-color: black;
+    margin-top: 0.15em;
+  }
+  .number {
+    min-width: 290px;
+    border: solid;
+    border-color: white;
+    text-align: center;
+    border-radius: 0.2em;
+    border-width: 0.01em;
+    color: white;
+    background-color: black;
+    margin-top: 0.15em;
+  }
+  .app-button {
+    min-width: 290px;
+    /* border: solid; */
+    border-color: white;
+    text-align: center;
+    border-radius: 0.2em;
+    border-width: 0.01em;
+    color: white;
+    background-color: #e27d60;
+    margin-top: 0.15em;
+  }
+}
